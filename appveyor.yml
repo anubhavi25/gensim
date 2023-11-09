@@ -58,7 +58,7 @@ install:
   - "SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
   - "python -m pip install -U pip tox"
 
-  - "python -m pip install Cython==0.29.14"
+  - "python -m pip install Cython==0.29.36"
 
   # Check that we have the expected versions and architecture
   - "pip --version"
